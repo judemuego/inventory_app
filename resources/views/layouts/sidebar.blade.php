@@ -19,25 +19,25 @@
         </li>
        
         <li class="nav-item ">
-          <a class="nav-link" href="/tables">
+          <a class="nav-link" href="/inventory">
             <i class="material-icons">content_paste</i>
             <p>Inventory</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="/typography">
+          <a class="nav-link" href="/warehouselist">
             <i class="material-icons">list</i>
             <p>Warehouse</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="/icons">
+          <a class="nav-link" href="/warehousetransfer">
             <i class="material-icons">assignment</i>
             <p>Warehouse Transfer</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="/map">
+          <a class="nav-link" href="/cargoreleases">
             <i class="material-icons">new_releases</i>
             <p>Cargo Releases</p>
           </a>
@@ -49,21 +49,15 @@
           </a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link" href="/notifications">
-              <i class="material-icons">receipt</i>
-              <p>Warehouse Receipts</p>
+            <a class="nav-link" href="/dtdpickuporder">
+              <i class="material-icons">directions_walk</i>
+              <p>DTD Pickup Order</p>
             </a>
           </li>
         <li class="nav-item ">
-            <a class="nav-link">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown button
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <a class="nav-link" href="/warehousereceipts">
+              <i class="material-icons">receipt</i>
+              <p>Warehouse Receipts</p>
             </a>
           </li>
       </ul>

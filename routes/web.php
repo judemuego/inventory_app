@@ -20,5 +20,17 @@ Route::get('/admin', function () {
     return view('pages.companyadmin');
 });
 Route::get('/dtd', function () { return view('pages.dtddelivery'); });
+Route::get('/dtdpickuporder', function () { return view('pages.dtdpickuporder'); });
+Route::get('/warehousereceipts', function () { return view('pages.warehousereceipt'); });
+Route::get('/warehouselist', function () { return view('pages.warehouselist'); });
+Route::get('/warehousetransfer', function () { return view('pages.warehousetransfer'); });
+Route::get('/cargoreleases', function () { return view('pages.cargoreleases'); });
+Route::get('/inventory', function () { return view('pages.inventory'); });
+
+
+
+
+
+
 
 

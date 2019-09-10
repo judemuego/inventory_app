@@ -8,3 +8,6 @@ body {
     font-size: 32px;
     color: white;
 }
+.card-options>a>i:hover {
+    color: #d2d2d2 !important;
+}
