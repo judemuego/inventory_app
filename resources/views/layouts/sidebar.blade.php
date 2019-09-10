@@ -17,7 +17,6 @@
             <p>Home</p>
           </a>
         </li>
-       
         <li class="nav-item ">
           <a class="nav-link" href="/inventory">
             <i class="material-icons">content_paste</i>
