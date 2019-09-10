@@ -1,3 +1,10 @@
 body {
     font-size: 100px;
 }
+.card-options {
+    text-align: right;
+}
+.card-options>a>i {
+    font-size: 32px;
+    color: white;
+}

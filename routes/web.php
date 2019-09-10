@@ -11,9 +11,14 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('home');
-// });
+Route::get('/', function () {
+    return view('home');
+});
 
-Route::get('/', 'DashboardController@index');
+Route::get('dashboard', 'DashboardController@index');
+Route::get('/admin', function () {
+    return view('pages.companyadmin');
+});
+Route::get('/dtd', function () { return view('pages.dtddelivery'); });
+
 
