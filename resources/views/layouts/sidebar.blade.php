@@ -116,12 +116,16 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
   
-  
   </div>
   
   
   <script type="text/javascript">
     $(document).ready(function() {
         $( "#myaccordion" ).accordion();
+        $("#myaccordion").accordion("destroy");
+        $("#myaccordion").accordion({
+            collapsible: true,
+            active: false
+        });
     });
   </script>
