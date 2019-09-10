@@ -1,5 +1,5 @@
-body {
-    font-size: 100px;
+.sidebar {
+    box-shadow: none !important;
 }
 .card-options {
     text-align: right;
@@ -10,4 +10,44 @@ body {
 }
 .card-options>a>i:hover {
     color: #d2d2d2 !important;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 0px !important;
+}
+.ui-corner-top {
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+
+}
+.ui-state-default {    
+    border: 1px solid #ffffff !important;
+    background: #ffffff !important;
+    font-weight: unset !important;
+    color: #454545;
+}
+.ui-state-active {
+    color: #00b7ce !important;
+}
+.ui-accordion .ui-accordion-header {
+    margin: 10px 15px 0 !important;
+    padding: 10px 15px !important; 
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

@@ -26,7 +26,7 @@
         <li class="nav-item ">
           <a class="nav-link" href="/warehouselist">
             <i class="material-icons">list</i>
-            <p>Warehouse</p>
+            <p>Warehouse List</p>
           </a>
         </li>
         <li class="nav-item ">
@@ -58,69 +58,73 @@
               <i class="material-icons">receipt</i>
               <p>Warehouse Receipts</p>
             </a>
-          </li>
+        </li>
+        <li class="nav-item" id="myaccordion">
+            <h2>Company Admin</h2>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/people_outline">
+                    <i class="material-icons">people_outline</i>
+                    <p>Employees</p>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="/emoji_people">
+                    <i class="material-icons">emoji_people</i>
+                    <p>Employee Types</p>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="/people">
+                    <i class="material-icons">people</i>
+                    <p>Users</p>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/warehouselist">
+                      <i class="material-icons">record_voice_over</i>
+                      <p>Agents</p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/warehouselist">
+                      <i class="material-icons">airline_seat_recline_normal</i>
+                      <p>Drivers/Helpers</p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/warehouselist">
+                      <i class="material-icons">directions_car</i>
+                      <p>Vehicles</p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/warehouselist">
+                      <i class="material-icons">perm_identity</i>
+                      <p>Customers</p>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/warehouselist">
+                      <i class="material-icons">store</i>
+                      <p>Vendors</p>
+                    </a>
+                </li>
+              </ul>
+        </li>
       </ul>
     </div>
+    
   </div>
   <script src="http://demo.itsolutionstuff.com/plugin/jquery.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-  <div id="myaccordion">
-
-
-    <!-- accordion 1 -->
-    <h2>My Accordion 1</h2>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
   
-  
-    <!-- accordion 2 -->
-    <h2>My Accordion 2</h2>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  
-  
-    <!-- accordion 3 -->
-    <h2>My Accordion 3</h2>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  
-  
-    <!-- accordion 4 -->
-    <h2>My Accordion 4</h2>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  
-  </div>
   
   
   <script type="text/javascript">
     $(document).ready(function() {
-        $( "#myaccordion" ).accordion();
+        $("#myaccordion" ).accordion();
         $("#myaccordion").accordion("destroy");
         $("#myaccordion").accordion({
             collapsible: true,
