@@ -3,7 +3,7 @@
 <div class="container-fluid">
         <div class="card">
                 <div class="card-header card-header-info">
-                    <h4 class="card-title">Drivers/Helpers List</h4>
+                    <h4 class="card-title">Vendors List</h4>
                     <p class="category"></p>
                     <div class="card-options">
                         <a href="" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="material-icons">add_circle_outline</i></a>

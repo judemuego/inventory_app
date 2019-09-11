@@ -3,7 +3,7 @@
 <div class="container-fluid">
         <div class="card">
                 <div class="card-header card-header-info">
-                    <h4 class="card-title">Employee Types</h4>
+                    <h4 class="card-title">Users</h4>
                     <p class="category"></p>
                     <div class="card-options">
                         <a href="" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="material-icons">add_circle_outline</i></a>
@@ -87,7 +87,7 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
     <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Add Agent</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Add User</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
