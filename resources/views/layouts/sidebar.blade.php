@@ -63,49 +63,49 @@
             <h2>Company Admin</h2>
             <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="/people_outline">
+                  <a class="nav-link" href="/employee">
                     <i class="material-icons">people_outline</i>
                     <p>Employees</p>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="/emoji_people">
+                  <a class="nav-link" href="/employeetype">
                     <i class="material-icons">emoji_people</i>
                     <p>Employee Types</p>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="/people">
+                  <a class="nav-link" href="/users">
                     <i class="material-icons">people</i>
                     <p>Users</p>
                   </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="/warehouselist">
+                    <a class="nav-link" href="/agents">
                       <i class="material-icons">record_voice_over</i>
                       <p>Agents</p>
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="/warehouselist">
+                    <a class="nav-link" href="/dh">
                       <i class="material-icons">airline_seat_recline_normal</i>
                       <p>Drivers/Helpers</p>
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="/warehouselist">
+                    <a class="nav-link" href="/vehicles">
                       <i class="material-icons">directions_car</i>
                       <p>Vehicles</p>
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="/warehouselist">
+                    <a class="nav-link" href="/customers">
                       <i class="material-icons">perm_identity</i>
                       <p>Customers</p>
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="/warehouselist">
+                    <a class="nav-link" href="/vendors">
                       <i class="material-icons">store</i>
                       <p>Vendors</p>
                     </a>

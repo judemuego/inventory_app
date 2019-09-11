@@ -19,6 +19,21 @@ Route::get('dashboard', 'DashboardController@index');
 Route::get('/admin', function () {
     return view('pages.companyadmin');
 });
+
+//Company Admin
+Route::get('/employee', function () { return view('admin.employee'); });
+Route::get('/employeetype', function () { return view('admin.employeetype'); });
+Route::get('/users', function () { return view('admin.users'); });
+Route::get('/agents', function () { return view('admin.agents'); });
+Route::get('/dh', function () { return view('admin.dh'); });
+Route::get('/vehicles', function () { return view('admin.vehicles'); });
+Route::get('/customers', function () { return view('admin.customers'); });
+Route::get('/vendors', function () { return view('admin.vendors'); });
+
+
+
+
+
 Route::get('/dtd', function () { return view('pages.dtddelivery'); });
 Route::get('/dtdpickuporder', function () { return view('pages.dtdpickuporder'); });
 Route::get('/warehousereceipts', function () { return view('pages.warehousereceipt'); });

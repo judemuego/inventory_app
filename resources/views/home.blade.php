@@ -3,6 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 @include('css') {{-- Include css file --}}  
+@include('js') {{-- Include css file --}}  
+
 <title>@yield('title')</title>
 </head>
 <body>
